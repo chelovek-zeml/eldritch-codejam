@@ -4,13 +4,11 @@
         <meta charset="utf-8"/>
         <meta name="viewport" content="width=device-width,initial-scale=1"/>
         <meta name="theme-color" content="#000000"/>
-        <meta name="description" content="Web site created using create-react-app"/>
-        <title>Codejam Demo</title>
-        <script defer="defer" src="js/play.js"></script>
+        <title>Codejam</title>
+        <script type="module" defer="defer" src="js/play.js"></script>
         <link href="css/style.css" rel="stylesheet">
     </head>
     <body>
-        <noscript>You need to enable JavaScript to run this app.</noscript>
         <div id="root">
             <div class="App" style="background-image: url(&quot;assets/home.png&quot;);">
                 <div class="ancients-container">
@@ -25,34 +23,34 @@
                     <div class="difficulty">Высокая</div>
                 </div>
                 <div class="deck-container">
-                    <span class="shuffle-button">Замешать колоду</span>
+                    <span class="shuffle-button no_active">Замешать колоду</span>
                     <div class="current-state">
                         <div class="stage-container">
                             <span class="stage-text ">Первая стадия</span>
                             <div class="dots-container">
-                                <div class="dot green">0</div>
-                                <div class="dot brown">0</div>
-                                <div class="dot blue">0</div>
+                                <div class="dot green num1">0</div>
+                                <div class="dot brown num2">0</div>
+                                <div class="dot blue num3">0</div>
                             </div>
                         </div>
                         <div class="stage-container">
                             <span class="stage-text ">Вторая стадия</span>
                             <div class="dots-container">
-                                <div class="dot green">0</div>
-                                <div class="dot brown">0</div>
-                                <div class="dot blue">0</div>
+                                <div class="dot green num4">0</div>
+                                <div class="dot brown num5">0</div>
+                                <div class="dot blue num6">0</div>
                             </div>
                         </div>
                         <div class="stage-container">
                             <span class="stage-text ">Третья стадия</span>
                             <div class="dots-container">
-                                <div class="dot green">0</div>
-                                <div class="dot brown">0</div>
-                                <div class="dot blue">0</div>
+                                <div class="dot green num7">0</div>
+                                <div class="dot brown num8">0</div>
+                                <div class="dot blue num9">0</div>
                             </div>
                         </div>
                 </div>
-                <div class="deck" style="background-image: url(&quot;assets/mythicCardBackground.png&quot;);">
+                <div class="deck no_active" style="background-image: url(&quot;assets/mythicCardBackground.png&quot;);">
                 </div>
                 <div class="last-card"></div>
                 </div>

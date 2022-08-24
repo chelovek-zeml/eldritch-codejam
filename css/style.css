@@ -61,6 +61,10 @@ code {
   cursor: pointer;
   padding: 5px;
 }
+.shuffle-button.no_active {
+  display: none;
+}
+
 .deck-container .current-state {
   display: flex;
   flex-direction: column;
@@ -104,6 +108,9 @@ code {
 }
 .deck-container .deck {
   cursor: pointer;
+}
+.deck-container .deck.no_active {
+  display: none;
 }
 .deck-container .deck,
 .deck-container .last-card {

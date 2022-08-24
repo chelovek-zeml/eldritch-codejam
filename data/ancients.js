@@ -1,4 +1,4 @@
-import Ancients from '../assets/Ancients/index'
+import Ancients from '../assets/Ancients/index.js'
 
 const ancientsData = [
   {
@@ -22,9 +22,9 @@ const ancientsData = [
     },
   },
   {
-    id: 'cthulhu',
-    name: 'cthulhu',
-    cardFace: Ancients.cthulhu,
+    id: 'cthulthu',
+    name: 'cthulthu',
+    cardFace: Ancients.cthulthu,
     firstStage: {
       greenCards: 0,
       blueCards: 2,
