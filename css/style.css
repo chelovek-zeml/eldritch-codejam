@@ -22,8 +22,8 @@ code {
   background-size: contain;
   box-sizing: border-box;
   cursor: pointer;
-  height: 260px;
-  width: 200px;
+  height: 320px;
+  width: 280px;
 }
 .ancients-container .ancient-card.active {
   border: 2px solid red;
@@ -115,8 +115,11 @@ code {
 .deck-container .deck,
 .deck-container .last-card {
   background-size: cover;
-  height: 190px;
-  width: 130px;
+  height: 240px;
+  width: 160px;
+}
+.deck-container .last-card.no_active {
+  display: none;
 }
 .App {
   background-position: 50%;
@@ -127,4 +130,9 @@ code {
   height: 100vh;
   justify-content: space-between;
   width: 100vw;
+}
+
+img {
+  height: 100%;
+        width: auto;
 }

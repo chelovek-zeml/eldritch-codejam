@@ -7,18 +7,18 @@ const ancientsData = [
     cardFace: Ancients.azathoth,
     firstStage: {
       greenCards: 1,
-      blueCards: 1,
-      brownCards: 2,
+      blueCards: 2,
+      brownCards: 1,
     },
     secondStage: {
       greenCards: 2,
-      blueCards: 1,
-      brownCards: 3,
+      blueCards: 3,
+      brownCards: 1,
     },
     thirdStage: {
       greenCards: 2,
-      blueCards: 0,
-      brownCards: 4,
+      blueCards: 4,
+      brownCards: 0,
     },
   },
   {
@@ -32,13 +32,13 @@ const ancientsData = [
     },
     secondStage: {
       greenCards: 1,
-      blueCards: 0,
-      brownCards: 3,
+      blueCards: 3,
+      brownCards: 0,
     },
     thirdStage: {
       greenCards: 3,
-      blueCards: 0,
-      brownCards: 4,
+      blueCards: 4,
+      brownCards: 0,
     },
   },
   {
@@ -47,18 +47,18 @@ const ancientsData = [
     cardFace: Ancients.iogSothoth,
     firstStage: {
       greenCards: 0,
-      blueCards: 1,
-      brownCards: 2,
+      blueCards: 2,
+      brownCards: 1,
     },
     secondStage: {
       greenCards: 2,
-      blueCards: 1,
-      brownCards: 3,
+      blueCards: 3,
+      brownCards: 1,
     },
     thirdStage: {
       greenCards: 3,
-      blueCards: 0,
-      brownCards: 4,
+      blueCards: 4,
+      brownCards: 0,
     },
   },
   {
@@ -67,18 +67,18 @@ const ancientsData = [
     cardFace: Ancients.shubNiggurath,
     firstStage: {
       greenCards: 1,
-      blueCards: 1,
-      brownCards: 2,
+      blueCards: 2,
+      brownCards: 1,
     },
     secondStage: {
       greenCards: 3,
-      blueCards: 1,
-      brownCards: 2,
+      blueCards: 2,
+      brownCards: 1,
     },
     thirdStage: {
       greenCards: 2,
-      blueCards: 0,
-      brownCards: 4,
+      blueCards: 4,
+      brownCards: 0,
     },
   },
 ]
